@@ -5,3 +5,14 @@ This full-stack site will take in results from your users' surveys, then compare
 
 ### Heroku
 https://agile-beyond-44146.herokuapp.com/survey
+
+## Usage
+- Click the button on the home page to begin the survey
+- All fields in the survey are required. Once the survey is completed, click 'Submit'
+- A pop up containing the name and picture of the user's best match will appear on the screen.
+
+## Technologies
+- Node.js
+    - npm packages: express, path
+- Internal storage
+    - friendList is maintained in app/data/friends.js
